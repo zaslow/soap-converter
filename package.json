@@ -6,8 +6,16 @@
   "bin": {
     "soap-converter": "./bin/soap-converter.js"
   },
+  "resolutions": {
+    "ajv": ">=6.12.3",
+    "ansi-regex": ">=3.0.1",
+    "ejs": ">=3.1.7",
+    "jsonpointer": ">=5.0.0",
+    "validator": ">=13.7.0",
+    "xml-crypto": ">=2.0.0"
+  },
   "dependencies": {
-    "apiconnect-wsdl": "1.7.10",
+    "apiconnect-wsdl": "^1.8.31",
     "commander": "4.1.1",
     "debug": "4.1.1",
     "inquirer": "7.0.6",
@@ -22,7 +30,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
-    "lint-staged": "10.0.8",
+    "lint-staged": "^13.0.3",
     "prettier": "1.19.1"
   },
   "scripts": {
